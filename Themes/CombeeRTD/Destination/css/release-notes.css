@@ -1,0 +1,58 @@
+#release-notes ~ h2 {
+	margin-bottom: 0;
+}
+
+#release-notes ~ h2 + p {
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+
+#release-notes ~ .table {
+	border: none;
+}
+
+#release-notes ~ .table thead {
+	display: none;
+}
+
+#release-notes ~ .table td {
+	border: none;
+	padding: 0 8px 0 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#release-notes ~ .table td:first-child {
+	text-align: right;
+	width: 80px;
+}
+
+.rn-new,
+.rn-remove,
+.rn-fix,
+.rn-change {
+	font: inherit;
+	font-weight: bold;
+	/*width: 80px;*/
+}
+
+.rn-new::before {
+	content: 'New';
+	color: green;
+}
+
+.rn-remove::before {
+	content: 'Remove';
+	color: red;
+}
+
+.rn-fix::before {
+	content: 'Fix';
+	color: orange;
+}
+
+.rn-change::before {
+	content: 'Change';
+	color: #70aaf0;
+}
+

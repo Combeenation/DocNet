@@ -1,0 +1,104 @@
+.ctrlscheme-legend {
+	position: fixed;
+	top: 16px;
+	right: 16px;
+	border: 1px solid black;
+	background: #fcfcfc;
+	padding: 8px;
+	max-width: 350px;
+	font-size: 0.8em;
+}
+
+.ctrlscheme-legend h1 {
+	margin: 24px 24px 8px 24px;
+}
+
+.ctrlscheme-legend div {
+	margin: 0 !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.ctrlscheme-legend .fa {
+	margin: 0 !important;
+}
+
+.ctrlscheme-el,
+.ctrlscheme-el div {
+	display: inline-block;
+	border: 1px solid black;
+	margin: 4px;
+	padding: 4px;
+}
+
+.ctrlscheme-el {
+	margin-bottom: 24px;
+}
+
+.ctrlscheme-el .fa-repeat {
+	margin: 0 8px;
+}
+
+.ctrlscheme-optional {
+	color: #a5a5a5;
+	font-weight: 100;
+	border-color: #a5a5a5 !important;
+}
+
+.ctrlscheme-el label {
+	color: inherit;
+	font: inherit;
+	margin: 4px;
+	padding: 0 4px;
+	cursor: default;
+}
+
+.ctrlscheme-color1 {
+	background-color: hsl(195, 100%, 85%);
+}
+
+.ctrlscheme-color2 {
+	background-color: hsl(120, 100%, 85%);
+}
+
+.ctrlscheme-color3 {
+	background-color: hsl(0, 100%, 85%);
+}
+
+.ctrlscheme-color4 {
+	background-color: hsl(300, 100%, 85%);
+}
+
+.ctrlscheme-graphicview-image {
+	background: url(res/combee-logo.png) no-repeat right;
+	background-size: contain;
+	width: 90px;
+	height: 50px;
+}
+
+.ctrlscheme-image {
+	display: block;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 450px;
+	border: none;
+}
+
+.ctrlscheme-slider-image {
+	background-image: url(res/slider.png);
+	height: 200px;
+}
+
+.ctrlscheme-panel-image {
+	background-image: url(res/panel.png);
+}
+
+.ctrlscheme-dataview-image {
+	background-image: url(res/dataview.png);
+}
+
+.ctrlscheme-combobox-image {
+	background-image: url(res/combobox.png);
+	height: 350px;
+}
