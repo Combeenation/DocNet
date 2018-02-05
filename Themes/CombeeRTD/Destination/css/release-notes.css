@@ -9,6 +9,7 @@
 
 #release-notes ~ .table {
 	border: none;
+	box-shadow: none;
 }
 
 #release-notes ~ .table thead {
