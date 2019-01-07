@@ -12,6 +12,10 @@
 	box-shadow: none;
 }
 
+#release-notes ~ .table ul {
+	margin: 0;
+}
+
 #release-notes ~ .table thead {
 	display: none;
 }
