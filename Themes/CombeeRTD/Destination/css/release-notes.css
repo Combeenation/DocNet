@@ -61,9 +61,13 @@
 	color: green;
 }
 
-.rn-remove::before,
-.rn-breakingchange::before {
+.rn-remove::before {
 	content: 'Remove';
+	color: red;
+}
+
+.rn-breakingchange::before {
+	content: 'Breaking Change';
 	color: red;
 }
 
