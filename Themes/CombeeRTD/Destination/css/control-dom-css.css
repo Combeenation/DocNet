@@ -70,7 +70,7 @@
 }
 
 .ctrlscheme-graphicview-image {
-	background: url(res/combee-logo.png) no-repeat right;
+	background: url(res/combee-logo.svg) no-repeat right;
 	background-size: contain;
 	width: 90px;
 	height: 50px;
